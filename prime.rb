@@ -1,4 +1,4 @@
-def prime?(number)
+def filter(number)
   
   primes = (0..number).to_a
   primes[0] = primes[1] = nil
@@ -24,6 +24,8 @@ else
   return false
   
 end
-  
-  
+end
+
+def prime?(num)
+  filter(num).include?(num)
 end
