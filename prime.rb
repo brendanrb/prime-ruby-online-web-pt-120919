@@ -17,7 +17,7 @@ def filter(number)
 if true 
   return true
   
-  elsif primes < 0 
+  elsif number < 0 
   return false
   
 else 
