@@ -14,7 +14,6 @@ def sieve(max)
     (p*p).step(max,p) { |m| primes[m] = nil }
   end
 
-  puts "Solved for #{max} in #{counter} steps."
   primes.compact
 end
 
