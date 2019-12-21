@@ -11,7 +11,7 @@ def prime?(number)
     break if p*p > number
     counter += 1
     
-    (p*p).step(number,p) { |m| primes[m] = nil }
+    (p*p).step(number,p) { |n| primes[n] = nil }
   end
 
 if true 
