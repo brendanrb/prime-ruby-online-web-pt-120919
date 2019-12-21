@@ -17,6 +17,9 @@ def prime?(number)
 if true 
   return true
   
+  elsif number < 0 
+  return false
+  
 else 
   return false
   
